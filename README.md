@@ -21,7 +21,7 @@
 ---
 
 ### Let's create a class!
-'''
+```
 class Item:
   pass
-'''python
+```python
