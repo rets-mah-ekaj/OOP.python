@@ -24,4 +24,11 @@
 ```python
 class Item:
   pass
+item1 = Item()
+item1.name = 'Phone'
+item1.price = 100
+item1.quantity = 5
 ```
+
+- So, here you can see that we created a class Item which at present doesn't have any attributes or methods as of now. And then we create item1 of type Item (so basically, Item is sort of a new data type we created).
+- Then we initialised its attributes with values. Now again when we try to get the type of each object, we will see that the *'item1'* is now of type **'__main__.Item'**
