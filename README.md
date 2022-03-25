@@ -8,11 +8,11 @@
 [JimShapedCoding - Instagram](https://www.instagram.com/jimshapedcoding/)
 
 ---
-## Video 1
+### Video 1
 
 > We will be understanding the concepts of Object Oriented Programming in Python by developing a store management system from scratch.
 
-### What problems does OOP solve?
+##### What problems does OOP solve?
 - You can directly open the code from above, or you can [click here](./Video_1.ipynb).
 
 **In video_1.ipynb**, we can see that all the variables are having prefix for variable description as item1. But for python, those are just variables.
@@ -21,7 +21,7 @@
 - In python programming language, each data types is an object that has been instantiated earlier by some class. Here, for **'item1'** variable, string type of class is instantiated and for **'item1_price', 'item1_quantity' and 'item1_price_total'** variables, integer type of class was instantiated.
 ---
 
-### Let's create a class!
+##### Let's create a class!
 ```python
 class Item:
   pass
@@ -36,7 +36,7 @@ item1.quantity = 5
 
 ---
 
-**Now let us create one more instance of Item**
+##### **Now let us create one more instance of Item**
 ```python
 item2 = Item()
 item2.name = 'Laptop'
@@ -44,7 +44,7 @@ item2.price = 1000
 item2.quantity = 3
 ```
 
-**Now let us create a method inside the class that will calculate the total price**
+##### **Now let us create a method inside the class that will calculate the total price**
 > When a function is created inside of a class, it is referred to as "method".
 
 ```python
@@ -62,4 +62,4 @@ item1.calculate_total_price(item1.price, item1.quantity)
 Now in this code above, *item1* as an object will be passed to *self*, *item1.price* will be sent as *x* and *item1.quantity* will be sent as *y* to the method and it will return **x\*y (item1.price \* item1.quantity)**.
 
 ---
-## Video 2
+### Video 2
