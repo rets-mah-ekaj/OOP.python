@@ -83,4 +83,4 @@ class Item:
     print(f"An instance created: {name}")
 ```
 The above code will generate the output as:
-[Output 1](./img/1.png)
+![Output 1](./img/1.png)
