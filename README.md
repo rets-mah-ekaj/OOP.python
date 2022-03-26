@@ -63,3 +63,15 @@ Now in this code above, *item1* as an object will be passed to *self*, *item1.pr
 
 ---
 ### Video 2
+
+> In order to create attributes till now, we need to hard code the attributes like item1.name, item1.price, item1.quantity and similarly for item2. Hence, we need to create something that could help pass all the values directly and need not to hard code the item attributes each time.
+
+##### What is a magic methods?
+Magic methods in Python are some special methods that start and end with the **double underscores** and not invoked by user but **internally from the class** on a certain action. These are also called *dunder methods*.
+
+To begin with, we will be using:
+```python
+def __init__(self):
+  pass
+```
+We will declare this function inside the class.
