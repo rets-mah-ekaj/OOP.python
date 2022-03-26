@@ -74,4 +74,13 @@ To begin with, we will be using:
 def __init__(self):
   pass
 ```
-We will declare this function inside the class.
+We will declare this function inside the class. This will initiate the method \_\_init\_\_() everytime we invoke an instance of the class.
+
+We can also pass some other parameters and avoid hardcoding the attributes each time. For example:
+```python
+class Item:
+  def __init__(self, name):
+    print(f"An instance created: {name}")
+```
+The above code will generate the output as:
+![Output 1](./images/1.png)
